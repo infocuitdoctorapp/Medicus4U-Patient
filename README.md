@@ -1,1 +1,1 @@
-# Medicus4U-Patient
+# ionic-patient-app

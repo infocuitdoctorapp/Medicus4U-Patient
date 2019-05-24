@@ -1,0 +1,34 @@
+<!--
+  Generated template for the LivefeedPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="main">
+    <ion-title>livefeed</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <p class="text-center"> Token refresh every 5 seconds</p>
+
+  <ion-card *ngFor="let status of livefeedarr" style="background-color: darkslateblue">
+    <ion-card-content>
+      <ion-row>
+        <ion-col col-4 class="text-center">
+          <b class="text-white">Token</b><br>
+          <b class="text-white">{{status.token_no}}</b>
+        </ion-col>
+        <ion-col col-4 class="text-center border-l-r">
+          <b class="text-white">Token Status</b><br>
+          <b class="text-white">{{status.token_status}}</b>
+        </ion-col>
+        <ion-col col-4 class="text-center">
+          <b class="text-white">Time</b><br>
+          <b class="text-white">{{status.token_time | date:'hh:mm a'}}</b>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

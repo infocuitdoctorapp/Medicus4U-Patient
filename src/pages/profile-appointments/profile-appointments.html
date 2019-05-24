@@ -1,0 +1,45 @@
+<!--
+  Generated template for the ProfileAppointmentsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="main">
+    <ion-buttons item-start>
+      <button ion-button (click)="closeModal()">
+        <!-- <ion-icon name="arrow-back"></ion-icon> -->
+        <p class="margin-left-10  small-case">Appointments</p>
+
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content style="background-color: darkgray;"> 
+  <ion-card  *ngFor="let appointments of Appointmentdetails" class="border-redius-8"(click)="myappointmentdetails(appointments)" >
+     <ion-card-content>
+      <ion-row>
+     <ion-col col-3>
+      <ion-avatar item-left>
+        <img class="border-10" src="../assets/img/bala.jpg">
+      </ion-avatar>
+     </ion-col>
+     <ion-col col-1></ion-col>
+     <ion-col col-8>
+          <b>{{appointments.doctor_name}}</b>
+          <p> Appointment ID:{{appointments.app_id}}</p>
+          <b>{{appointments.business_date}}</b>
+     </ion-col>
+    </ion-row>
+    <ion-row>
+      
+    </ion-row>
+    </ion-card-content>
+  
+  </ion-card>
+</ion-content>

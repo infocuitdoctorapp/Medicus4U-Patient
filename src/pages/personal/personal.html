@@ -1,0 +1,168 @@
+<ion-content (click)="navprofilecomplete()">
+  <ion-list>
+    <!-- name -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-9>
+          <ion-row>
+            Name
+          </ion-row>
+          <ion-row>
+            <p>
+              {{personalprofile.user_name}}
+            </p>
+          </ion-row>
+        </ion-col>
+        <ion-col col-3>
+          <ion-avatar item-right>
+            <img class="width-69" src="../assets/img/user_profile.png">
+          </ion-avatar>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- mobile Numbe  -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <!-- <ion-row> -->
+          Mobile Number
+          <!-- </ion-row> -->
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder=" enter your number">{{personalprofile.mobile}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- Email-id -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Email id
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="Enter your email id">{{personalprofile.email}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- Gender -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Gender
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="add gender">{{personalprofile.gender}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- dateofbirth -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Date of birth
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="Emter your date_of_birth">{{personalprofile.birthday}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- bloodgroup -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Blood Group
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="Emter your date_of_birth">{{personalprofile.blood_group}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- marital status -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Martial Status
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="add marital status">{{personalprofile.married_status}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- Height -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Height
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="add Height">{{personalprofile.height}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- Weight -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Weight
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="add Weight">{{personalprofile.weight}} (kg)</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- Emergency Contact -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Emergency Contact
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="add emergency details">{{personalprofile.emergency_contact_mobile}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+    <!-- Location -->
+    <ion-item>
+      <ion-row>
+        <ion-col col-8>
+          <ion-row>
+            Location
+          </ion-row>
+        </ion-col>
+        <ion-col col-4>
+          <p placeholder="add Location">{{personalprofile.country}}</p>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+
+  </ion-list>
+</ion-content>
+<ion-footer>
+  <!-- <button ion-button block> Complete profile </button> -->
+</ion-footer>

@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar color="main">
+    <ion-grid>
+      <ion-row>
+        <ion-col width-33>
+        </ion-col>
+        <ion-col width-33>
+          <img  class="border-round" src="../assets/img/bala.jpg" />
+          <ion-icon name="camera" color="light" (click)="takephoto()"></ion-icon>
+         <!-- <img align="center" class="border-round" [src]="profilepic" style="height:100px;width:100px" alt="no img"> -->
+        </ion-col>
+        <ion-col width-33>
+          <!-- <button ion-button clear (click)="takephoto()" > take photo</button> -->
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <div class="position-center text-white">
+      <b>{{user_name}}</b>
+      <p class="margin-auto">{{user_mobile_num}}</p>
+      <!-- <button ion-button color="light" class="small-case" outline (click)="navprofilecomplete()">Complete your profile</button> -->
+      <button ion-button color="light" class="small-case" outline (click)="bala()">Complete your profile</button>
+
+    </div>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]="form" *ngIf="settingsReady">
+    <ion-list *ngIf="page == 'main'">
+      <ion-item no-lines *ngFor="let options of profileOptions" (click)="navprofileoptions(options)">
+        <ion-label>{{options.name}}</ion-label>
+        <ion-icon item-end name="arrow-forward"></ion-icon>
+      </ion-item>
+    </ion-list>
+  </form>
+
+</ion-content>

@@ -1,0 +1,399 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+//invisible scroll
+* ::-webkit-scrollbar{
+    display: none;
+}
+.border-round{
+    border-radius: 50%;
+}
+.border-redius-8{
+    border-radius: 8px !important;
+}
+.height-25{
+    height: 25px !important;
+}
+.height-37{
+    height: 37% !important;
+}
+.height-56{
+    height: 56px !important;
+}
+.height-30{
+    height: 30px !important;
+}
+
+.background-transparent{
+    background-color: transparent !important;
+}
+.small-case{
+    text-transform: none;
+}
+.full-width{
+    width:100% !important;
+}
+.screen-bg{
+    background-color: #8206c7;
+}
+.margin-auto{
+    margin: auto;
+}
+.margin-0{
+    margin-left : 0px !important;
+    margin-right : 0px !important;
+    margin-top : 0px !important;
+    margin-bottom : 0px !important;
+
+}
+.margin-top-5{
+    margin-top: 5px !important;
+}
+.margin-top-10{
+    margin-top:-28px  !important;
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.margin-left-20{
+    margin-left: 20px;
+}
+.margin-left-30{
+    margin-left:30px !important;
+}
+.margin-left-40{
+    margin-left:40px !important;
+}
+.margin-5{
+    margin:5px !important;
+}
+.margin--5{
+    margin: -5px 0px 0px 0px !important;
+}
+.margin-top-15{
+    margin-top: 15px !important;
+}
+.margin-top-100{
+    margin-top:100px !important;
+}
+
+.margin-top-150{
+    margin-top:150px !important;
+}
+.margin-top-50{
+    margin-top:50px !important;
+}
+.margin-top-55{
+    margin-top:55px !important;
+}
+.text-center{
+    text-align: center;
+}
+.position-center{
+    position: relative;
+    text-align: center;
+}
+.z-index-1{
+    z-index: 1 !important;
+}
+.z-index-2{
+    z-index: 2 !important;
+}
+// .splash-info {
+//     position: relative;
+//     z-index: 2;
+//     margin-top: 100px;
+//     color: white;
+//     font-size: 30px;
+//     font-weight: 600;
+//     // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//     text-align: center;
+//   }
+.global-font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background-color-light{
+    background-color: lightgray !important;
+}
+.ion-app.md {
+    font-family: "Roboto", "Helvetica Neue", sans-serif !important;
+    font-size: 1.2rem !important;
+}
+.weight-100{
+    font-weight: 100;
+}
+.weight-500{
+    font-weight: 500;
+}
+.weight-600{
+    font-weight: 600;
+}
+.weight-700{
+    font-weight: 700;
+}
+.weight-800{
+    font-weight: 800;
+}
+.weight-900{
+    font-weight: 900;
+}
+.font-8{
+    font-size: 8px;
+}
+.font-10{
+    font-size: 10px;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-28{
+    font-size: 28px;
+}
+.font-30{
+    font-size:30px;
+} 
+.align-bottom{
+    position: absolute;
+    bottom:0 !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.width{
+    width: 100% !important;
+}
+.width-90{
+    width: 90% !important;
+}
+.margin-17{
+    margin: 17px !important;
+}
+
+.col-140{
+    height:140px !important;
+}
+.text-color-gold{
+    color:goldenrod !important;
+}
+.text-color-purple{
+    color:#ab00ab !important;
+}
+.text-white {
+    color:white !important;
+}
+.text-green{
+    color:#32db64 !important;
+}
+.text-color-naviblue {
+    color:#06b9ee !important;
+}
+.text-color-red{
+    color:red !important;
+}
+
+.background-color-cornsilk{
+    background-color: cornsilk;
+}
+
+.border-50{
+border-radius:50% !important;
+}
+.border-10{
+    border-radius:10% !important;
+    }
+.margin-left{
+    margin-left: -9px !important;
+}
+.padding-10{
+    padding:10px !important;
+}
+.padding-20{
+    padding: 20px !important;
+}
+
+.padding-30{
+    padding:30px !important;
+}
+.padding-right-15{
+    padding-right:15px !important;
+}
+.padding-left-15{
+    padding-left:15px !important;
+}
+
+.navbar-height{
+    height:56px;
+}
+// Feedback Starts
+.minheight-0{
+    min-height: 0px !important;
+}
+.padding-0{
+    padding:0px !important;
+}
+.margin-bottom-0{
+    margin-bottom: 0px !important;
+}
+.font-14{
+    font-size: 14px !important;
+}
+.padding-left-0{
+    padding-left: 0px !important;
+}
+.height-0{
+    height: 0px !important;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-22{
+    font-size: 22px
+}
+.font-13{
+    font-size:13px !important;
+}
+.font-26{
+    font-size:26px !important;
+}
+.border-2{
+    border: 1px solid gray !important;
+}
+.border-1-white{
+    border:1px solid white !important;
+}
+.border-l-r{
+    border-left: 1px solid white !important;
+    border-right: 1px solid white !important;
+}
+
+// Feedback Ends
+//Row Heights
+.row-height-10{
+    height:10% !important;
+}
+.row-height-20{
+    height: 20% !important;
+}
+.row-height-30{
+    height: 30% !important;
+}
+.row-height-33{
+    height: 33.33% !important;
+}
+.row-height-40{
+    height: 40% !important;
+}
+.row-height-50{
+    height: 50% !important;
+}
+.row-height-60{
+    height: 60% !important;
+}
+.row-height-70{
+    height: 70% !important;
+}
+.row-height-80{
+    height: 80% !important;
+}
+.row-height-90{
+    height: 90% !important;
+}
+.row-height-100{
+    height: 100% !important;
+}
+ion-input{
+    ::placeholder{
+        color:white !important;
+    }
+}
+
+#menu-avatar {
+    .icon-badge {
+      top: 0px;
+      right: 0px;
+      background: #FF5D5D;
+      color: white;
+      font-size: 12px;
+      position: absolute;
+      padding: 5px 8px;
+      border-radius: 15px;
+    }
+    
+    .user-avatar {
+      padding: .5em;
+    }
+    h3,
+    .label {
+      color: white;
+      font-weight: bold;
+    }
+    .item {
+      background: transparent;
+    }
+    ion-content {
+      background: linear-gradient(48deg, rgba(157, 72, 173, 0.8) 0%, rgba(157, 72, 173, 0.86) 28%, rgba(0, 168, 168, 0.98) 93%, rgba(0, 168, 168, 1) 100%);
+    }
+    .menu-inner {
+      background: rgba(255, 255, 255, .3);
+    }
+  }
+  
+  // Material Design Sidemenu
+  #menu-material {
+    .menu-header {
+      padding: 5px 15px;
+      background-image: url('../assets/imgs/sidemenubg.jpg');
+      background-size: cover;
+      color: white;
+      .name {
+        font-weight: 500;
+        margin-bottom: 3px;
+      }
+      .e-mail {
+        margin-top: 0;
+        margin-bottom: 5px;
+      }
+    }
+    .user-avatar {
+      padding: .5em;
+      height: 12vh;
+    }
+    h3,
+    .label
+    {
+      color: #999;
+      font-weight: 400;
+    }
+    ion-icon {
+      color: #777;
+    }
+  }
+
+
